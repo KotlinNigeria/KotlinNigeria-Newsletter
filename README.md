@@ -1,30 +1,15 @@
-# [swiftweekly.github.io](https://swiftweekly.github.io) [![Build Status](https://travis-ci.org/SwiftWeekly/swiftweekly.github.io.svg?branch=master)](https://travis-ci.org/SwiftWeekly/swiftweekly.github.io)
+# [dennisotugo/KotlinNigeria-Newsletter](https://dennisotugo/KotlinNigeria-Newsletter) [![Build Status](https://travis-ci.org/dennisotugo/KotlinNigeria-Newsletter.svg?branch=master)](https://travis-ci.org/dennisotugo/KotlinNigeria-Newsletter)
+ 
 
-*A community-driven weekly newsletter about [Swift.org](https://swift.org)*
-
-> Curated by [@jesse_squires](https://twitter.com/jesse_squires) and [@BasThomas](https://twitter.com/BasThomas). 
-
-<img src="https://raw.githubusercontent.com/SwiftWeekly/swiftweekly.github.io/master/img/logo.png" width="250"/>
-
-## About
-
-This newsletter was originally started by [Jesse Squires](https://github.com/jessesquires), and hosted on his blog at [jessesquires.com](http://www.jessesquires.com). After issue #4, this site was created to provide the newsletter with a proper, dedicated home. All previous issues were [migrated](http://www.jessesquires.com/new-weekly-brief/), and it is now completely open for the community. Currently, [Bas Broek](https://github.com/BasThomas) is leading the project. Contributions are welcomed and encouraged!
-
-Lovingly built with [Jekyll](https://jekyllrb.com), [Bootstrap](https://getbootstrap.com), [jQuery](https://jquery.com), and [Font Awesome](https://fortawesome.github.io/Font-Awesome/). Generously hosted by [GitHub](https://pages.github.com).
-
-## Authors
-
-There are a number of [contributing authors](https://swiftweekly.github.io/authors/) to the newsletter. If you'd like to join, open an issue to discuss!
-
-## Usage
+<img src="https://raw.githubusercontent.com/dennisotugo/KotlinNigeria-Newsletter/master/img/logo.png" width="250"/>
 
 ### Installation
 
 You'll need [bundler](http://bundler.io) installed.
 
 ```bash
-$ git clone https://github.com/SwiftWeekly/swiftweekly.github.io.git
-$ cd swiftweekly.github.io/
+$ git clone https://github.com/dennisotugo/KotlinNigeria-Newsletter.git
+$ cd KotlinNigeria-Newsletter/
 $ bundle install
 ```
 

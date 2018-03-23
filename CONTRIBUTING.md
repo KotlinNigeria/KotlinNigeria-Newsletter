@@ -1,35 +1,35 @@
-# Contributing to *Swift Weekly Brief*
+# Contributing to *KotWek*
 
 *Contributions are welcome and encouraged!*
 
-First and foremost, please review and abide by [our code of conduct](https://github.com/SwiftWeekly/swiftweekly.github.io/blob/master/CODE_OF_CONDUCT.md).
+First and foremost, please review and abide by [our code of conduct](https://github.com/dennisotugo/KotlinNigeria-Newsletter/blob/master/CODE_OF_CONDUCT.md).
 
 You should have a good understanding of how [Jekyll](http://jekyllrb.com) and [GitHub-Pages](https://pages.github.com) work — or be willing to learn. :smile: We are happy to help you with any questions, just ask!
 
-**Suggestions:** Have something you want to share in the newsletter? Please find [the current issue notes](https://github.com/SwiftWeekly/swiftweekly.github.io/issues?q=is%3Aissue+is%3Aopen+label%3A%22current+issue%22) and add a comment. Or you can [open an issue][issueLink] or [submit a pull request][prLink] to the [current draft](https://github.com/SwiftWeekly/swiftweekly.github.io/tree/master/_drafts) with a link and description.
+**Suggestions:** Have something you want to share in the newsletter? Please find [the current issue notes](vissues?q=is%3Aissue+is%3Aopen+label%3A%22current+issue%22) and add a comment. Or you can [open an issue][issueLink] or [submit a pull request][prLink] to the [current draft](https://github.com/dennisotugo/KotlinNigeria-Newsletter/tree/master/_drafts) with a link and description.
 
 **Fixes:** Spelling, grammar, or code. Please [open an issue][issueLink] or [submit a pull request][prLink]!
 
 ## ⚙️ Setup and process
 
-1. Add yourself to [`_data/authors.yml`](https://github.com/SwiftWeekly/swiftweekly.github.io/blob/master/_data/authors.yml), if you haven't already. Please provide:
+1. Add yourself to [`_data/authors.yml`](https://github.com/dennisotugo/KotlinNigeria-Newsletter/blob/master/_data/authors.yml), if you haven't already. Please provide:
     - A username to reference for the site
     - Your name
     - GitHub username
     - Twitter username
-1. Run the [`new_draft.sh`](https://github.com/SwiftWeekly/swiftweekly.github.io/blob/master/new_draft.sh) script to generate an issue template in `_drafts/`. See the example below.
+1. Run the [`new_draft.sh`](https://github.com/dennisotugo/KotlinNigeria-Newsletter/blob/master/new_draft.sh) script to generate an issue template in `_drafts/`. See the example below.
 1. Open an issue on GitHub. Set the title to the newsletter issue number and date. 
 **Example:** `[100] Issue #100 - Jan 04, 2018`
 1. Assign it to yourself. 
-1. Add the [`current issue` and `full issue notes`](https://github.com/SwiftWeekly/swiftweekly.github.io/issues?utf8=✓&q=is%3Aissue+label%3A%22current+issue%22+label%3A%22full+issue+notes%22+) labels.  
-1. We use this throughout the week to collect notes and make it easy for external contributors to contribute content. We also use this issue to collaborate with the other [Swift Weekly writers](https://swiftweekly.github.io/authors/) and troubleshoot any problems that come up.
+1. Add the [`current issue` and `full issue notes`](https://github.com/dennisotugo/KotlinNigeria-Newsletter/issues?utf8=✓&q=is%3Aissue+label%3A%22current+issue%22+label%3A%22full+issue+notes%22+) labels.  
+1. We use this throughout the week to collect notes and make it easy for external contributors to contribute content. We also use this issue to collaborate with the others and troubleshoot any problems that come up.
 1. Write the issue in `_drafts/` throughout the week. We recommend writing a little each day to make it easier. 
 1. For style and content, see the guide below. Also, follow the example set by previous issues.
 1. **For code snippets, use jekyll highlight blocks:** 
 ```jekyll
-{% highlight swift %} 
+{% highlight kotlin %} 
 
-// swift code here
+// kotlin code here
 
 {% endhighlight %}
 ```
@@ -103,7 +103,7 @@ Some good indications on whether or not a discussion is worth including:
 
 > 💡 **Note:** We publish *every other Thursday*.
 
-New issues should be pushed to `master` **before noon** Pacific Time, preferably around 10 or 11 a.m. if possible. Pushing early allows us to catch and fix any last minute errors. If there are any problems, contact [Bas](https://twitter.com/BasThomas) or [Jesse](https://www.jessesquires.com/contact/).
+New issues should be pushed to `master` **before noon** Pacific Time, preferably around 10 or 11 a.m. if possible. Pushing early allows us to catch and fix any last minute errors. If there are any problems, contact Baro.
 
 1. When ready to publish, move the `.md` file from `_drafts/` to the `_posts/` directory.
 2. Run `jekyll build` on your local copy to preview.
@@ -114,29 +114,23 @@ New issues should be pushed to `master` **before noon** Pacific Time, preferably
 
 ~~Emails are automatically sent via Mailchimp's [RSS-to-Email](https://mailchimp.com/features/rss-to-email/) feature. **Publishing too late (*at or after* noon PST) will prevent emails from being sent.** If emails fail to send on Thursday at noon PST, Mailchimp will retry on Friday at noon PST.~~
 
-> ⚠️ **Warning:** we currently are not sending emails. This section is here for historical reasons.
-
 ### Tweets
 
-Tweets from [@swiftlybrief](https://twitter.com/swiftlybrief) are automated via [IFTTT](https://ifttt.com). 
+Tweets from [@KotlinNigeria](https://twitter.com/kotlinNigeria) are automated via [IFTTT](https://ifttt.com). 
 
 ## 🎢 Continuous integration
 
 We use [travis-ci](https://travis-ci.org/SwiftWeekly/swiftweekly.github.io), [danger](http://danger.systems), and [proselint](http://proselint.com) (via [danger-prose](https://github.com/dbgrandi/danger-prose)). This ensures:
 
 - We're always pushing valid markdown and `jekyll` can build the site.
-- We write elegant prose — no grammar/spelling mistakes, and no offensive or unwelcoming language. See the [`Dangerfile`](https://github.com/SwiftWeekly/swiftweekly.github.io/blob/master/Dangerfile) for more details.
+- We write elegant prose — no grammar/spelling mistakes, and no offensive or unwelcoming language. See the [`Dangerfile`](https://github.com/dennisotugo/KotlinNigeria-Newsletter/blob/master/Dangerfile) for more details.
 
 ## 💡Tips
 
-- Watch all of the main [Apple repositories](https://github.com/apple).
-- Follow the prominent [contributors](https://github.com/orgs/apple/people) on GitHub and Twitter.
-- Monitor and follow discussions on the [Swift Forums](https://forums.swift.org), and configure your notification settings.
-- ~~Monitor [swift-evolution-announce](https://lists.swift.org/pipermail/swift-evolution-announce/) for important, high-level announcements.~~
-- ~~Skim the other [mailing lists](https://lists.swift.org/mailman/listinfo) periodically. Look for interesting subject lines and Core Team participation in threads.~~
-- Starter tasks: check [this filter](https://bugs.swift.org/issues/?filter=10451).
+- Watch all of the main [Kotlin repositories](https://github.com/kotlin).
+- Follow the prominent [contributors](https://github.com/orgs/jetbrains/people) on GitHub and Twitter.
 - When in doubt, refer to previous issues for examples.
 - Keep a draft running throughout the week, add a little bit of content each day.
 
-[issueLink]:https://github.com/SwiftWeekly/swiftweekly.github.io/issues/new
-[prLink]:https://github.com/SwiftWeekly/swiftweekly.github.io/compare
+[issueLink]:https://github.com/Sdennisotugo/KotlinNigeria-Newsletter/issues/new
+[prLink]:https://github.com/dennisotugo/KotlinNigeria-Newsletter/compare

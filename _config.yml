@@ -14,9 +14,9 @@ permalink: /:title/
 # Site
 title: 'Swift Weekly Brief'
 description: 'A community-driven weekly newsletter about Swift.org'
-url: https://swiftweekly.github.io
+url: https://dennisotugo.github.io/KotlinNigeria-Newsletter/
 logo: /img/logo.png
-timezone: America/Los_Angeles
+timezone: Africa/Lagos
 
 twitter:
     username: swiftlybrief
@@ -27,8 +27,8 @@ excerpt_separator: <!--excerpt-->
 # Data
 links:
     rss: '/feed.xml'
-    twitter: 'https://twitter.com/swiftlybrief'
-    github: 'https://github.com/SwiftWeekly/swiftweekly.github.io'
-    issue: 'https://github.com/SwiftWeekly/swiftweekly.github.io/issues/new'
-    pull: 'https://github.com/SwiftWeekly/swiftweekly.github.io/compare'
-    applenews: 'https://apple.news/TIlGIYluMTGWA-CIToVtF4Q'
+    twitter: 'https://twitter.com/kotlinniger'
+    github: 'https://github.com/dennisotugo/KotlinNigeria-Newsletter/'
+    issue: 'https://github.com/dennisotugo/KotlinNigeria-Newsletter/issues/new'
+    pull: 'https://github.com/dennisotugo/KotlinNigeria-Newsletter/compare'
+    applenews: '/'
