@@ -12,14 +12,14 @@ exclude: [vendor, Dangerfile, Gemfile, Gemfile.lock, LICENSE, README.md, CODE_OF
 permalink: /:title/
 
 # Site
-title: 'Swift Weekly Brief'
-description: 'A community-driven weekly newsletter about Swift.org'
+title: 'KotWek'
+description: 'A community-driven weekly newsletter about Kotlin'
 url: https://dennisotugo.github.io/KotlinNigeria-Newsletter/
 logo: /img/logo.png
 timezone: Africa/Lagos
 
 twitter:
-    username: swiftlybrief
+    username: kotlinnigeria
 
 # Setup
 excerpt_separator: <!--excerpt-->
@@ -27,8 +27,8 @@ excerpt_separator: <!--excerpt-->
 # Data
 links:
     rss: '/feed.xml'
-    twitter: 'https://twitter.com/kotlinniger'
-    github: 'https://github.com/dennisotugo/KotlinNigeria-Newsletter/'
-    issue: 'https://github.com/dennisotugo/KotlinNigeria-Newsletter/issues/new'
-    pull: 'https://github.com/dennisotugo/KotlinNigeria-Newsletter/compare'
+    twitter: 'https://twitter.com/kotlinnigeria'
+    github: 'https://github.com/KotlinNigeria/KotlinNigeria-Newsletter'
+    issue: 'https://github.com/KotlinNigeria/KotlinNigeria-Newsletter/issues/new'
+    pull: 'https://github.com/KotlinNigeria/KotlinNigeria-Newsletter/compare'
     applenews: '/'
